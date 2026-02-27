@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.gamebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p{
+    padding: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.low-high{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: larger;
+}
+form{
+     padding: 85px 50px 20px;
+}
+.box{
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.reset{
+    display: flex;
+    padding: 5px;
+    gap: 15px;
+}
+#restart{
+    font-size: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 248, 23);
+    border-radius: 5px;
+}
+.sp1{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(23, 248, 23);
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+}
+#rem-attempts{
+    color: rgb(250, 28, 28);
+    font-weight: 600;
+}
