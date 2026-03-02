@@ -1,10 +1,10 @@
 
-let a = "123456789ABCDEF";
+let as = "123456789ABCDEF";
 
 function colorgenerator(){
     let color = '#';
     for(let i=0; i<6; i++){
-        color += a[Math.floor(Math.random() * 16)];
+        color += as[Math.floor(Math.random() * 16)];
     }
     return color;
 }
