@@ -9,3 +9,6 @@ for (let index = 0; index < array.length; index++) {
 
 console.log("Testing is undergoing")
 
+const a = document.getElementsByTagName('h1')
+console.log(a[0])
+a[0].addEventListener('click',(e)=>{console.log(e)})
