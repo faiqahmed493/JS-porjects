@@ -1,0 +1,13 @@
+div{
+    padding: 20px;
+    gap: 10px;
+}
+
+#box{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 600;
+}
